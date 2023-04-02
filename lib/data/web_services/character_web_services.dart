@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:rickandmorty/constants/strings.dart';
 
 class CharacterWebServices {
-  late Dio dio;
 
+   Dio dio = Dio();
   CharacterWebServices() {
     BaseOptions options = BaseOptions(
       baseUrl: baseUrl,
