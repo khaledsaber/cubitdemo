@@ -6,7 +6,7 @@ class CharactersScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text("Welcome OnBoard"),
+      child: Text(" "),
     );
   }
 }
